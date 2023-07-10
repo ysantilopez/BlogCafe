@@ -48,6 +48,7 @@ h1, h2,h3
 h1 { font-size: 5.5rem;}
 h2 { font-size: 4.5rem;}
 h3 { font-size: 2.5rem;}
+
 img
 {
     max-width: 100%;
@@ -101,6 +102,13 @@ img
     padding-right: 2rem;
 }
 
+.header__texto a:hover
+{
+    transition: .7s;
+    color: rgb(158, 93, 7);
+    font-weight: 500;
+}
+
 .contenido-principal
 {
     display: grid;
@@ -119,6 +127,7 @@ img
     text-transform: uppercase;
     font-weight: 700;
     margin: 5rem auto;
+    cursor: pointer;
 }
 
 .boton:hover
@@ -153,6 +162,7 @@ img
     font-family: var(--FuenteParrafos);
     font-weight: bold;
 }
+
 .widget-curso__info 
 {
     font-weight: 100;
@@ -178,7 +188,13 @@ img
 
 .footer__1 a
 {
-    color: var(--Blanco);
+    color: rgba(161, 161, 161, 0.281);
+}
+
+.footer__1 a:hover
+{
+    color: rgb(255, 255, 255);
+    transition: .5s;
 }
 
 .navegacion__footer
@@ -198,3 +214,114 @@ img
     align-items: center;
 }
 
+
+
+/*
+============================================================
+                Nosotros
+============================================================
+*/
+
+.contenedor__nosotros h2
+{
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido__nosotros
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    margin: 0 15rem 10rem;
+}
+
+.contenido__nosotros p
+{
+    font-size: 1.5rem;
+}
+
+.header__nosotros
+{
+    height: 40rem;
+}
+
+
+
+/*
+============================================================
+                Cursos
+============================================================
+*/
+
+.curso
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    margin-top: 3rem;
+}
+
+.curso__label 
+{
+    font-family: var(--FuenteParrafos);
+    font-weight: bold;
+}
+
+.curso__info 
+{
+    font-weight: 100;
+}
+
+
+
+
+/*
+============================================================
+                Contacto
+============================================================
+*/
+
+.header__contacto
+{
+    height: 30rem;
+}
+
+.contacto__bg
+{
+    background-image: url(/img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.formulario
+{
+    background: var(--Blanco);
+    margin: -29rem auto 0 auto;
+    width: 80%;
+    height: 50rem;
+    padding: 10rem;
+}
+
+.campo
+{
+    display: flex;
+    margin-bottom: 2.8rem;
+    gap: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.campo__label
+{
+    flex: 0 0 9rem;
+    text-align: right;
+}
+
+.campo__field
+{
+    flex: 1;
+}
