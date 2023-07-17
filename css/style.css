@@ -355,8 +355,6 @@ img
 
     .navegacion
     {
-        text-align: center;
-        place-items: center;
         margin-top: 2rem;
     }
     
@@ -420,6 +418,5 @@ img
         display: flex;
         flex-wrap: wrap;
     }
-
-    .campo__field
+    
 }
