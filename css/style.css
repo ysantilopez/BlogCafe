@@ -71,7 +71,7 @@ img
 }
 
 
-/*HEADER*/
+                        /*HEADER*/
 .header
 {
     background-image: url(/img/banner.jpg);
@@ -347,6 +347,7 @@ img
 
 @media (max-width: 420px) { 
 
+                                    /*Header*/
     .header__texto .nav
     {
         display: grid;
@@ -365,6 +366,7 @@ img
         flex-direction: column;
     }
 
+                                    /*Footer*/
     #footer
     {
         place-items: center;
@@ -383,8 +385,41 @@ img
         margin-top: 2rem;
     }
 
-    .h2__footer
+    
+
+
+                                    /*Nosotros*/
+    .contenido__nosotros
     {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
     }
+
+                                    /*Cursos*/
+
+    .curso 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__contacto
+    {
+        height: 40rem;
+    }
+
+    .formulario
+    {
+      padding: 2rem;  
+      width: 30rem;
+    }
+
+    .campo
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .campo__field
 }
