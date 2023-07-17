@@ -326,3 +326,65 @@ img
 {
     flex: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+============================================================
+                Responsabily
+============================================================
+*/
+
+@media (max-width: 420px) { 
+
+    .header__texto .nav
+    {
+        display: grid;
+    }
+
+    .navegacion
+    {
+        text-align: center;
+        place-items: center;
+        margin-top: 2rem;
+    }
+    
+    .contenido-principal
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer
+    {
+        place-items: center;
+    }
+
+    .footer__1
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .navegacion__footer
+    {
+        margin-top: 2rem;
+    }
+
+    .h2__footer
+    {
+        text-align: center;
+    }
+}
